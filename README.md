@@ -1,6 +1,6 @@
 
-```markdown
-## FinTech A/B Test Analysis: Premium Subscription Model
+
+# FinTech A/B Test Analysis: Premium Subscription Model
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)](https://jupyter.org/)
