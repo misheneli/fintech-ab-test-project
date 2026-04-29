@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.env/
+
+# Data files (можно добавить, если не хотите загружать данные)
+# data/*.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.jupyter/
