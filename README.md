@@ -12,6 +12,16 @@
 
 This project demonstrates a comprehensive A/B test analysis for a FinTech application, simulating real-world business decision making. The analysis evaluates whether introducing a **30-day free trial** for a premium subscription leads to higher **Lifetime Value (LTV)** compared to the existing immediate paywall model.
 
+## 🔬 Analysis Modules
+
+| Module | Description |
+|--------|-------------|
+| `src/ab_test_analyzer.py` | Main orchestrator — runs full pipeline via `ABTestAnalyzer` class |
+| `src/helpers.py` | Statistical utilities: t-test, Mann-Whitney U, Cohen's d, bootstrap CI |
+| `src/visualization.py` | Publication-ready charts with CI, lift annotations, segment heatmaps |
+| `docs/SYSTEM_REQUIREMENTS.md` | Functional & non-functional requirements, data model |
+| `docs/ARCHITECTURE.md` | System design, data flow, component diagram |
+
 **Key Skills Demonstrated:**
 - 🗄️ **SQL**: Complex querying for cohort analysis and LTV calculation
 - 📈 **A/B Testing**: Experimental design and statistical analysis
